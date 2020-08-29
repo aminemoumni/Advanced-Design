@@ -8,6 +8,13 @@
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr)); // auto responsive every box minimum had 250px then they turn to 3 row and 2 column 
     grid-gap: 6rem;
     align-items: start;
+    
+    @media only screen and (max-width: $bp-md) {
+        margin: 10rem 0;
+    }
+    @media only screen and (max-width: $bp-small) {
+        margin: 6rem 0;
+    }
 }
 
 
